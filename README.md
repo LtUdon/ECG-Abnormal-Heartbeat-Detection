@@ -1,0 +1,2 @@
+# ECG Abnormal Heartbeat Detection
+Can a Support Vector Machine (SVM) and a Multilayer Perceptron (MLP) neural network identify irregular heartbeats in ECG recordings from patients never seen during model training? The project will classify individual heartbeats as normal or irregular. We will compare SVM and MLP using the same patient-separated training, validation, and test partitions. For below we will use the expert annotations to confirm good or bad readings.
