@@ -1,0 +1,4802 @@
+[
+    {
+        "Index": 0,
+        "Batch Size": 512,
+        "Epochs": 50,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.4619190669729634,
+        "Run Results": {
+            "Train Loss": 0.07660454053403208,
+            "Valid Loss": 0.6426884809458859,
+            "Valid ROC AUC": 0.9114611262670381,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9849771975319682,
+                    "recall": 0.7929023898646703,
+                    "f1-score": 0.8785643070787638,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.31238049713193117,
+                    "recall": 0.8861016949152543,
+                    "f1-score": 0.4619190669729634,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8018481160929264,
+                "macro avg": {
+                    "precision": 0.6486788473319497,
+                    "recall": 0.8395020423899623,
+                    "f1-score": 0.6702416870258636,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9204180686785776,
+                    "recall": 0.8018481160929264,
+                    "f1-score": 0.838572654241121,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    11015,
+                    2877
+                ],
+                [
+                    168,
+                    1307
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 1,
+        "Batch Size": 512,
+        "Epochs": 50,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.5963636363636363,
+        "Run Results": {
+            "Train Loss": 0.03599324126591707,
+            "Valid Loss": 0.4066801485746445,
+            "Valid ROC AUC": 0.9687885479754229,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9933426481466261,
+                    "recall": 0.8699971206449755,
+                    "f1-score": 0.9275873978280057,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.435625,
+                    "recall": 0.9450847457627118,
+                    "f1-score": 0.5963636363636363,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8772043990368973,
+                "macro avg": {
+                    "precision": 0.714483824073313,
+                    "recall": 0.9075409332038437,
+                    "f1-score": 0.761975517095821,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9398101739476105,
+                    "recall": 0.8772043990368973,
+                    "f1-score": 0.8957949173074132,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12086,
+                    1806
+                ],
+                [
+                    81,
+                    1394
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 2,
+        "Batch Size": 512,
+        "Epochs": 50,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.6037980146741476,
+        "Run Results": {
+            "Train Loss": 0.034988856721830434,
+            "Valid Loss": 0.34169840738502144,
+            "Valid ROC AUC": 0.9624846637742976,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9937745740498034,
+                    "recall": 0.8733083789231212,
+                    "f1-score": 0.9296551724137931,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4428616650838873,
+                    "recall": 0.9484745762711865,
+                    "f1-score": 0.6037980146741476,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8805231990629271,
+                "macro avg": {
+                    "precision": 0.7183181195668453,
+                    "recall": 0.9108914775971538,
+                    "f1-score": 0.7667265935439704,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9408952520790396,
+                    "recall": 0.8805231990629271,
+                    "f1-score": 0.8983778048296207,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12132,
+                    1760
+                ],
+                [
+                    76,
+                    1399
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 3,
+        "Batch Size": 512,
+        "Epochs": 50,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.5824129141886151,
+        "Run Results": {
+            "Train Loss": 0.015684999441575125,
+            "Valid Loss": 0.6379446669015086,
+            "Valid ROC AUC": 0.9380996012825331,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9914290423603098,
+                    "recall": 0.8659660236107112,
+                    "f1-score": 0.924460155229386,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4240643365295391,
+                    "recall": 0.9294915254237288,
+                    "f1-score": 0.5824129141886151,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8720635127220667,
+                "macro avg": {
+                    "precision": 0.7077466894449245,
+                    "recall": 0.89772877451722,
+                    "f1-score": 0.7534365347090005,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9369705962680089,
+                    "recall": 0.8720635127220667,
+                    "f1-score": 0.89162878407463,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12030,
+                    1862
+                ],
+                [
+                    104,
+                    1371
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 4,
+        "Batch Size": 512,
+        "Epochs": 100,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.5979142526071842,
+        "Run Results": {
+            "Train Loss": 0.04725731575832568,
+            "Valid Loss": 0.2954574718638908,
+            "Valid ROC AUC": 0.9444010697535957,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9852318990979484,
+                    "recall": 0.8884249928016125,
+                    "f1-score": 0.9343275672811234,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.45422535211267606,
+                    "recall": 0.8745762711864407,
+                    "f1-score": 0.5979142526071842,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8870957246046723,
+                "macro avg": {
+                    "precision": 0.7197286256053123,
+                    "recall": 0.8815006319940266,
+                    "f1-score": 0.7661209099441538,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9342632873452786,
+                    "recall": 0.8870957246046723,
+                    "f1-score": 0.9020369680005832,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12342,
+                    1550
+                ],
+                [
+                    185,
+                    1290
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 5,
+        "Batch Size": 512,
+        "Epochs": 100,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.6050858509019779,
+        "Run Results": {
+            "Train Loss": 0.023654446061753216,
+            "Valid Loss": 0.5115313529430087,
+            "Valid ROC AUC": 0.9487989429350876,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9932195082101135,
+                    "recall": 0.8751799596890296,
+                    "f1-score": 0.9304710519266828,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.44529750479846447,
+                    "recall": 0.943728813559322,
+                    "f1-score": 0.6050858509019779,
+                    "support": 1475.0
+                },
+                "accuracy": 0.881759614758899,
+                "macro avg": {
+                    "precision": 0.719258506504289,
+                    "recall": 0.9094543866241758,
+                    "f1-score": 0.7677784514143303,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9406272680180018,
+                    "recall": 0.881759614758899,
+                    "f1-score": 0.899238985061879,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12158,
+                    1734
+                ],
+                [
+                    83,
+                    1392
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 6,
+        "Batch Size": 512,
+        "Epochs": 100,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.6046927374301676,
+        "Run Results": {
+            "Train Loss": 0.033571346667687824,
+            "Valid Loss": 0.3431469564500469,
+            "Valid ROC AUC": 0.9518761194102691,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9901350367914612,
+                    "recall": 0.8814425568672617,
+                    "f1-score": 0.9326326211965421,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.451,
+                    "recall": 0.9172881355932203,
+                    "f1-score": 0.6046927374301676,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8848831912539858,
+                "macro avg": {
+                    "precision": 0.7205675183957306,
+                    "recall": 0.899365346230241,
+                    "f1-score": 0.7686626793133549,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9383862127355358,
+                    "recall": 0.8848831912539858,
+                    "f1-score": 0.9011553433573152,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12245,
+                    1647
+                ],
+                [
+                    122,
+                    1353
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 7,
+        "Batch Size": 512,
+        "Epochs": 100,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.5857542500537981,
+        "Run Results": {
+            "Train Loss": 0.012694307581191736,
+            "Valid Loss": 0.6176925234521343,
+            "Valid ROC AUC": 0.9406745255164537,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9906519065190652,
+                    "recall": 0.8696372012669162,
+                    "f1-score": 0.9262084563192394,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4290668348045397,
+                    "recall": 0.9227118644067797,
+                    "f1-score": 0.5857542500537981,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8747315676449535,
+                "macro avg": {
+                    "precision": 0.7098593706618025,
+                    "recall": 0.896174532836848,
+                    "f1-score": 0.7559813531865187,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9367482180451325,
+                    "recall": 0.8747315676449535,
+                    "f1-score": 0.8935299924524127,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12081,
+                    1811
+                ],
+                [
+                    114,
+                    1361
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 8,
+        "Batch Size": 512,
+        "Epochs": 150,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.502649240551042,
+        "Run Results": {
+            "Train Loss": 0.09281917979390443,
+            "Valid Loss": 0.4522210039092218,
+            "Valid ROC AUC": 0.9693187153196328,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9953488372093023,
+                    "recall": 0.8010365678088108,
+                    "f1-score": 0.8876834716017868,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.339861475997134,
+                    "recall": 0.9647457627118644,
+                    "f1-score": 0.502649240551042,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8167501789549033,
+                "macro avg": {
+                    "precision": 0.6676051566032182,
+                    "recall": 0.8828911652603376,
+                    "f1-score": 0.6951663560764144,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9324319466133534,
+                    "recall": 0.8167501789549033,
+                    "f1-score": 0.8507259983929727,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    11128,
+                    2764
+                ],
+                [
+                    52,
+                    1423
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 9,
+        "Batch Size": 512,
+        "Epochs": 150,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.595965897275941,
+        "Run Results": {
+            "Train Loss": 0.03068689297877443,
+            "Valid Loss": 1.0726809082743773,
+            "Valid ROC AUC": 0.9729114671533915,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9965095986038395,
+                    "recall": 0.8631586524618485,
+                    "f1-score": 0.925053037608486,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4298140371925615,
+                    "recall": 0.9715254237288136,
+                    "f1-score": 0.595965897275941,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8735602264592959,
+                "macro avg": {
+                    "precision": 0.7131618178982004,
+                    "recall": 0.917342038095331,
+                    "f1-score": 0.7605094674422135,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.942115380273545,
+                    "recall": 0.8735602264592959,
+                    "f1-score": 0.8934656404593675,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    11991,
+                    1901
+                ],
+                [
+                    42,
+                    1433
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 10,
+        "Batch Size": 512,
+        "Epochs": 150,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.5663716814159292,
+        "Run Results": {
+            "Train Loss": 0.03884556171793119,
+            "Valid Loss": 0.38033493078351527,
+            "Valid ROC AUC": 0.9467693392612259,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9891699735449735,
+                    "recall": 0.8612870716959401,
+                    "f1-score": 0.9208096044328151,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4108835218587588,
+                    "recall": 0.9111864406779661,
+                    "f1-score": 0.5663716814159292,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8660766577731502,
+                "macro avg": {
+                    "precision": 0.7000267477018661,
+                    "recall": 0.8862367561869531,
+                    "f1-score": 0.7435906429243722,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9336632047392751,
+                    "recall": 0.8660766577731502,
+                    "f1-score": 0.8867889148740264,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    11965,
+                    1927
+                ],
+                [
+                    131,
+                    1344
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 11,
+        "Batch Size": 512,
+        "Epochs": 150,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.5157750342935528,
+        "Run Results": {
+            "Train Loss": 0.014619852382614464,
+            "Valid Loss": 0.6229514246878775,
+            "Valid ROC AUC": 0.9194120991474181,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9721687520051331,
+                    "recall": 0.8725165562913907,
+                    "f1-score": 0.9196509863429438,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.38909968954812,
+                    "recall": 0.7647457627118645,
+                    "f1-score": 0.5157750342935528,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8621721871542917,
+                "macro avg": {
+                    "precision": 0.6806342207766265,
+                    "recall": 0.8186311595016276,
+                    "f1-score": 0.7177130103182483,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9162029247698826,
+                    "recall": 0.8621721871542917,
+                    "f1-score": 0.8808849923771176,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12121,
+                    1771
+                ],
+                [
+                    347,
+                    1128
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 12,
+        "Batch Size": 512,
+        "Epochs": 200,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.4374793797426592,
+        "Run Results": {
+            "Train Loss": 0.10323528003075562,
+            "Valid Loss": 0.9098075259101874,
+            "Valid ROC AUC": 0.8807748637186626,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.986178107606679,
+                    "recall": 0.765260581629715,
+                    "f1-score": 0.8617866407263295,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.289077828646174,
+                    "recall": 0.8989830508474577,
+                    "f1-score": 0.4374793797426592,
+                    "support": 1475.0
+                },
+                "accuracy": 0.7780959198282033,
+                "macro avg": {
+                    "precision": 0.6376279681264265,
+                    "recall": 0.8321218162385864,
+                    "f1-score": 0.6496330102344944,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9192670051490266,
+                    "recall": 0.7780959198282033,
+                    "f1-score": 0.8210595495601348,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    10631,
+                    3261
+                ],
+                [
+                    149,
+                    1326
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 13,
+        "Batch Size": 512,
+        "Epochs": 200,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.5818772856562373,
+        "Run Results": {
+            "Train Loss": 0.048180143335661535,
+            "Valid Loss": 2.0735991466853165,
+            "Valid ROC AUC": 0.932182307095414,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9963926174496645,
+                    "recall": 0.8549524906420962,
+                    "f1-score": 0.9202696420269642,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.415433710472875,
+                    "recall": 0.9708474576271187,
+                    "f1-score": 0.5818772856562373,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8660766577731502,
+                "macro avg": {
+                    "precision": 0.7059131639612697,
+                    "recall": 0.9128999741346074,
+                    "f1-score": 0.7510734638416008,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9406293332828939,
+                    "recall": 0.8660766577731502,
+                    "f1-score": 0.8877890846216916,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    11877,
+                    2015
+                ],
+                [
+                    43,
+                    1432
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 14,
+        "Batch Size": 512,
+        "Epochs": 200,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.6017817371937639,
+        "Run Results": {
+            "Train Loss": 0.03289717208562386,
+            "Valid Loss": 0.3622890353239668,
+            "Valid ROC AUC": 0.9468007193507298,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.989961139896373,
+                    "recall": 0.88021883098186,
+                    "f1-score": 0.9318701417466849,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4480928689883914,
+                    "recall": 0.9159322033898305,
+                    "f1-score": 0.6017817371937639,
+                    "support": 1475.0
+                },
+                "accuracy": 0.883646775558014,
+                "macro avg": {
+                    "precision": 0.7190270044423822,
+                    "recall": 0.8980755171858452,
+                    "f1-score": 0.7668259394702244,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9379499666296799,
+                    "recall": 0.883646775558014,
+                    "f1-score": 0.900186638348783,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12228,
+                    1664
+                ],
+                [
+                    124,
+                    1351
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 15,
+        "Batch Size": 512,
+        "Epochs": 200,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.5081778392075559,
+        "Run Results": {
+            "Train Loss": 0.010934226815274044,
+            "Valid Loss": 0.642678240526392,
+            "Valid ROC AUC": 0.9201085126423207,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9702423806095513,
+                    "recall": 0.8730924272962857,
+                    "f1-score": 0.9191073390671769,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.3848569434752268,
+                    "recall": 0.7477966101694915,
+                    "f1-score": 0.5081778392075559,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8610659204789484,
+                "macro avg": {
+                    "precision": 0.6775496620423891,
+                    "recall": 0.8104445187328886,
+                    "f1-score": 0.7136425891373663,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9140542163762507,
+                    "recall": 0.8610659204789484,
+                    "f1-score": 0.879664311001,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12129,
+                    1763
+                ],
+                [
+                    372,
+                    1103
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 16,
+        "Batch Size": 1024,
+        "Epochs": 50,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.37835848362164154,
+        "Run Results": {
+            "Train Loss": 0.08987459022813656,
+            "Valid Loss": 0.5678015633047367,
+            "Valid ROC AUC": 0.8491461492286745,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9608169705469846,
+                    "recall": 0.7890152605816297,
+                    "f1-score": 0.8664822134387352,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.2596615306895681,
+                    "recall": 0.6969491525423729,
+                    "f1-score": 0.37835848362164154,
+                    "support": 1475.0
+                },
+                "accuracy": 0.7801783041582612,
+                "macro avg": {
+                    "precision": 0.6102392506182763,
+                    "recall": 0.7429822065620013,
+                    "f1-score": 0.6224203485301883,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.8935166338651541,
+                    "recall": 0.7801783041582612,
+                    "f1-score": 0.8196297047200384,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    10961,
+                    2931
+                ],
+                [
+                    447,
+                    1028
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 17,
+        "Batch Size": 1024,
+        "Epochs": 50,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.43759923785328675,
+        "Run Results": {
+            "Train Loss": 0.10866019444724907,
+            "Valid Loss": 2.6375208932136336,
+            "Valid ROC AUC": 0.9204134802617772,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9908004552352049,
+                    "recall": 0.7520155485171321,
+                    "f1-score": 0.8550499263381895,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.2857142857142857,
+                    "recall": 0.9342372881355933,
+                    "f1-score": 0.43759923785328675,
+                    "support": 1475.0
+                },
+                "accuracy": 0.7695060844667144,
+                "macro avg": {
+                    "precision": 0.6382573704747453,
+                    "recall": 0.8431264183263627,
+                    "f1-score": 0.6463245820957382,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9231228278490295,
+                    "recall": 0.7695060844667144,
+                    "f1-score": 0.8149809626162379,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    10447,
+                    3445
+                ],
+                [
+                    97,
+                    1378
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 18,
+        "Batch Size": 1024,
+        "Epochs": 50,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.6116140428350629,
+        "Run Results": {
+            "Train Loss": 0.035704609221778046,
+            "Valid Loss": 0.3500325583557134,
+            "Valid ROC AUC": 0.952235453156798,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9926906521562576,
+                    "recall": 0.8798589116038007,
+                    "f1-score": 0.9328754054569739,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4535036018336608,
+                    "recall": 0.9389830508474576,
+                    "f1-score": 0.6116140428350629,
+                    "support": 1475.0
+                },
+                "accuracy": 0.885533936357129,
+                "macro avg": {
+                    "precision": 0.7230971269949592,
+                    "recall": 0.9094209812256291,
+                    "f1-score": 0.7722447241460184,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9409368355866063,
+                    "recall": 0.885533936357129,
+                    "f1-score": 0.9020391648200689,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12223,
+                    1669
+                ],
+                [
+                    90,
+                    1385
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 19,
+        "Batch Size": 1024,
+        "Epochs": 50,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.6168347216133275,
+        "Run Results": {
+            "Train Loss": 0.01540005801307374,
+            "Valid Loss": 0.4604001160391781,
+            "Valid ROC AUC": 0.9546266110967416,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9944625407166123,
+                    "recall": 0.8790670889720703,
+                    "f1-score": 0.9332110652605838,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4557823129251701,
+                    "recall": 0.9538983050847457,
+                    "f1-score": 0.6168347216133275,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8862497559705863,
+                "macro avg": {
+                    "precision": 0.7251224268208912,
+                    "recall": 0.916482697028408,
+                    "f1-score": 0.7750228934369556,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9427573714583071,
+                    "recall": 0.8862497559705863,
+                    "f1-score": 0.9028437126947152,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12212,
+                    1680
+                ],
+                [
+                    68,
+                    1407
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 20,
+        "Batch Size": 1024,
+        "Epochs": 100,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.253669178897263,
+        "Run Results": {
+            "Train Loss": 0.8539360572235445,
+            "Valid Loss": 5.896006736711294,
+            "Valid ROC AUC": 0.7871944101470423,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9709973364900858,
+                    "recall": 0.4723581917650446,
+                    "f1-score": 0.635544794188862,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.14856545475665,
+                    "recall": 0.8671186440677966,
+                    "f1-score": 0.253669178897263,
+                    "support": 1475.0
+                },
+                "accuracy": 0.5102492353745038,
+                "macro avg": {
+                    "precision": 0.5597813956233679,
+                    "recall": 0.6697384179164206,
+                    "f1-score": 0.4446069865430625,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.8920562923333332,
+                    "recall": 0.5102492353745038,
+                    "f1-score": 0.598890500406399,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    6562,
+                    7330
+                ],
+                [
+                    196,
+                    1279
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 21,
+        "Batch Size": 1024,
+        "Epochs": 100,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.6142636343563701,
+        "Run Results": {
+            "Train Loss": 0.013359533922378685,
+            "Valid Loss": 0.4233156829949253,
+            "Valid ROC AUC": 0.9548916825681896,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9931779420125071,
+                    "recall": 0.880290814857472,
+                    "f1-score": 0.9333333333333333,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.45546823837590045,
+                    "recall": 0.9430508474576271,
+                    "f1-score": 0.6142636343563701,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8863148304809007,
+                "macro avg": {
+                    "precision": 0.7243230901942037,
+                    "recall": 0.9116708311575495,
+                    "f1-score": 0.7737984838448517,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9415659284207849,
+                    "recall": 0.8863148304809007,
+                    "f1-score": 0.9027074593181696,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12229,
+                    1663
+                ],
+                [
+                    84,
+                    1391
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 22,
+        "Batch Size": 1024,
+        "Epochs": 100,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.6064459548344662,
+        "Run Results": {
+            "Train Loss": 0.032122392284718346,
+            "Valid Loss": 0.348781423256448,
+            "Valid ROC AUC": 0.951614195708297,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.992508753358847,
+                    "recall": 0.8774114598329974,
+                    "f1-score": 0.9314178733809652,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.44815294880103695,
+                    "recall": 0.9376271186440678,
+                    "f1-score": 0.6064459548344662,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8831912539858138,
+                "macro avg": {
+                    "precision": 0.720330851079942,
+                    "recall": 0.9075192892385326,
+                    "f1-score": 0.7689319141077157,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9402588144167783,
+                    "recall": 0.8831912539858138,
+                    "f1-score": 0.9002254753946252,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12189,
+                    1703
+                ],
+                [
+                    92,
+                    1383
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 23,
+        "Batch Size": 1024,
+        "Epochs": 100,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.5963620614984841,
+        "Run Results": {
+            "Train Loss": 0.014519755303825446,
+            "Valid Loss": 0.5942025134519426,
+            "Valid ROC AUC": 0.9463927781871776,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9919829842931938,
+                    "recall": 0.87287647566945,
+                    "f1-score": 0.928626129575739,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4381164492523067,
+                    "recall": 0.9335593220338984,
+                    "f1-score": 0.5963620614984841,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8787011127741263,
+                "macro avg": {
+                    "precision": 0.7150497167727502,
+                    "recall": 0.9032178988516741,
+                    "f1-score": 0.7624940955371116,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9388201588109716,
+                    "recall": 0.8787011127741263,
+                    "f1-score": 0.8967337953261163,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12126,
+                    1766
+                ],
+                [
+                    98,
+                    1377
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 24,
+        "Batch Size": 1024,
+        "Epochs": 150,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.5245579567779961,
+        "Run Results": {
+            "Train Loss": 0.07456866036167448,
+            "Valid Loss": 0.306205786381111,
+            "Valid ROC AUC": 0.9106467324200734,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9681284259984339,
+                    "recall": 0.8899366541894616,
+                    "f1-score": 0.9273872927762359,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4112437427801309,
+                    "recall": 0.7240677966101695,
+                    "f1-score": 0.5245579567779961,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8740157480314961,
+                "macro avg": {
+                    "precision": 0.6896860843892824,
+                    "recall": 0.8070022253998155,
+                    "f1-score": 0.725972624777116,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9146759038570271,
+                    "recall": 0.8740157480314961,
+                    "f1-score": 0.8887217581502579,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12363,
+                    1529
+                ],
+                [
+                    407,
+                    1068
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 25,
+        "Batch Size": 1024,
+        "Epochs": 150,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.5823100936524453,
+        "Run Results": {
+            "Train Loss": 0.024092225504693258,
+            "Valid Loss": 0.7455094551992779,
+            "Valid ROC AUC": 0.9451750306236487,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9936861344188751,
+                    "recall": 0.8609991361934927,
+                    "f1-score": 0.9225963207219715,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4201201201201201,
+                    "recall": 0.9484745762711865,
+                    "f1-score": 0.5823100936524453,
+                    "support": 1475.0
+                },
+                "accuracy": 0.86939545779918,
+                "macro avg": {
+                    "precision": 0.7069031272694977,
+                    "recall": 0.9047368562323396,
+                    "f1-score": 0.7524532071872084,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9386324563365777,
+                    "recall": 0.86939545779918,
+                    "f1-score": 0.8899339803219226,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    11961,
+                    1931
+                ],
+                [
+                    76,
+                    1399
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 26,
+        "Batch Size": 1024,
+        "Epochs": 150,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.6062717770034843,
+        "Run Results": {
+            "Train Loss": 0.030178675407907776,
+            "Valid Loss": 0.341585351712626,
+            "Valid ROC AUC": 0.9547743610515991,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9932244897959184,
+                    "recall": 0.8758278145695364,
+                    "f1-score": 0.9308392624894806,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4465832531280077,
+                    "recall": 0.943728813559322,
+                    "f1-score": 0.6062717770034843,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8823452853517277,
+                "macro avg": {
+                    "precision": 0.719903871461963,
+                    "recall": 0.9097783140644292,
+                    "f1-score": 0.7685555197464824,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.940755183875103,
+                    "recall": 0.8823452853517277,
+                    "f1-score": 0.8996856839711072,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12167,
+                    1725
+                ],
+                [
+                    83,
+                    1392
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 27,
+        "Batch Size": 1024,
+        "Epochs": 150,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.6203473945409429,
+        "Run Results": {
+            "Train Loss": 0.008153801495054633,
+            "Valid Loss": 0.53246120429933,
+            "Valid ROC AUC": 0.9484653281732688,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9919413329035378,
+                    "recall": 0.886049524906421,
+                    "f1-score": 0.9360100376411543,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.46484110885733604,
+                    "recall": 0.9322033898305084,
+                    "f1-score": 0.6203473945409429,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8904795991410165,
+                "macro avg": {
+                    "precision": 0.728391220880437,
+                    "recall": 0.9091264573684648,
+                    "f1-score": 0.7781787160910486,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9413476691781426,
+                    "recall": 0.8904795991410165,
+                    "f1-score": 0.9057111895528605,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12309,
+                    1583
+                ],
+                [
+                    100,
+                    1375
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 28,
+        "Batch Size": 1024,
+        "Epochs": 200,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.4641238670694864,
+        "Run Results": {
+            "Train Loss": 0.05989026444859882,
+            "Valid Loss": 0.4771256839476267,
+            "Valid ROC AUC": 0.9091420498079616,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9786939199722847,
+                    "recall": 0.8134177944140513,
+                    "f1-score": 0.8884346253636293,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.32164354880921225,
+                    "recall": 0.8332203389830508,
+                    "f1-score": 0.4641238670694864,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8153185397279885,
+                "macro avg": {
+                    "precision": 0.6501687343907485,
+                    "recall": 0.823319066698551,
+                    "f1-score": 0.6762792462165579,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9156270040182577,
+                    "recall": 0.8153185397279885,
+                    "f1-score": 0.8477071985084291,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    11300,
+                    2592
+                ],
+                [
+                    246,
+                    1229
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 29,
+        "Batch Size": 1024,
+        "Epochs": 200,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.4836376162590424,
+        "Run Results": {
+            "Train Loss": 0.09934706963911767,
+            "Valid Loss": 2.8869325796956393,
+            "Valid ROC AUC": 0.9282282206073975,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9935665096049293,
+                    "recall": 0.7893031960840772,
+                    "f1-score": 0.8797336328626444,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.3241745555299007,
+                    "recall": 0.951864406779661,
+                    "f1-score": 0.4836376162590424,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8049066180776989,
+                "macro avg": {
+                    "precision": 0.658870532567415,
+                    "recall": 0.8705838014318691,
+                    "f1-score": 0.6816856245608434,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9293149880157664,
+                    "recall": 0.8049066180776989,
+                    "f1-score": 0.8417143952437004,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    10965,
+                    2927
+                ],
+                [
+                    71,
+                    1404
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 30,
+        "Batch Size": 1024,
+        "Epochs": 200,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.6116397433060412,
+        "Run Results": {
+            "Train Loss": 0.029975493850715178,
+            "Valid Loss": 0.3355222629767323,
+            "Valid ROC AUC": 0.9513051042668139,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.992453136411588,
+                    "recall": 0.8803627987330838,
+                    "f1-score": 0.9330535952698836,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4540078843626807,
+                    "recall": 0.9369491525423729,
+                    "f1-score": 0.6116397433060412,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8857942343983861,
+                "macro avg": {
+                    "precision": 0.7232305103871344,
+                    "recall": 0.9086559756377284,
+                    "f1-score": 0.7723466692879624,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.94077052127707,
+                    "recall": 0.8857942343983861,
+                    "f1-score": 0.9022027179583285,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12230,
+                    1662
+                ],
+                [
+                    93,
+                    1382
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 31,
+        "Batch Size": 1024,
+        "Epochs": 200,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.600896860986547,
+        "Run Results": {
+            "Train Loss": 0.008549567609230068,
+            "Valid Loss": 0.5420163843572029,
+            "Valid ROC AUC": 0.9425996183634527,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9890970764012276,
+                    "recall": 0.8815865246184854,
+                    "f1-score": 0.9322524168379387,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4489112227805695,
+                    "recall": 0.9084745762711864,
+                    "f1-score": 0.600896860986547,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8841673716405284,
+                "macro avg": {
+                    "precision": 0.7190041495908985,
+                    "recall": 0.8950305504448359,
+                    "f1-score": 0.7665746389122429,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9372473897941819,
+                    "recall": 0.8841673716405284,
+                    "f1-score": 0.9004472860459296,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12247,
+                    1645
+                ],
+                [
+                    135,
+                    1340
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 32,
+        "Batch Size": 5119,
+        "Epochs": 50,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.6092913722971527,
+        "Run Results": {
+            "Train Loss": 0.05321795316081508,
+            "Valid Loss": 0.35684913760055376,
+            "Valid ROC AUC": 0.9621733518132617,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9957275490921041,
+                    "recall": 0.872372588540167,
+                    "f1-score": 0.9299773625446035,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.445244055068836,
+                    "recall": 0.9647457627118644,
+                    "f1-score": 0.6092913722971527,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8812390186763844,
+                "macro avg": {
+                    "precision": 0.7204858020804701,
+                    "recall": 0.9185591756260156,
+                    "f1-score": 0.7696343674208781,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9428894444728343,
+                    "recall": 0.8812390186763844,
+                    "f1-score": 0.8991963489690852,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12119,
+                    1773
+                ],
+                [
+                    52,
+                    1423
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 33,
+        "Batch Size": 5119,
+        "Epochs": 50,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.5996628739991572,
+        "Run Results": {
+            "Train Loss": 0.02771513803059415,
+            "Valid Loss": 0.5326471006581346,
+            "Valid ROC AUC": 0.957885162537151,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9957010582010583,
+                    "recall": 0.8669737978692773,
+                    "f1-score": 0.9268893335385563,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4350351574442067,
+                    "recall": 0.9647457627118644,
+                    "f1-score": 0.5996628739991572,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8763584304028113,
+                "macro avg": {
+                    "precision": 0.7153681078226325,
+                    "recall": 0.9158597802905708,
+                    "f1-score": 0.7632761037688567,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.941885596262075,
+                    "recall": 0.8763584304028113,
+                    "f1-score": 0.8954805336543489,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12044,
+                    1848
+                ],
+                [
+                    52,
+                    1423
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 34,
+        "Batch Size": 5119,
+        "Epochs": 50,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.6203065985336592,
+        "Run Results": {
+            "Train Loss": 0.06564977885440862,
+            "Valid Loss": 0.31953771197878095,
+            "Valid ROC AUC": 0.9644603649460486,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9935985738594928,
+                    "recall": 0.8826662827526635,
+                    "f1-score": 0.9348530476880266,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.46133509583608723,
+                    "recall": 0.9464406779661017,
+                    "f1-score": 0.6203065985336592,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8887876618728444,
+                "macro avg": {
+                    "precision": 0.72746683484779,
+                    "recall": 0.9145534803593826,
+                    "f1-score": 0.7775798231108428,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.94250931570341,
+                    "recall": 0.8887876618728444,
+                    "f1-score": 0.904661337367034,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12262,
+                    1630
+                ],
+                [
+                    79,
+                    1396
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 35,
+        "Batch Size": 5119,
+        "Epochs": 50,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.606941431670282,
+        "Run Results": {
+            "Train Loss": 0.05309210705861399,
+            "Valid Loss": 0.379151188274937,
+            "Valid ROC AUC": 0.9647489592839676,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9937867887508175,
+                    "recall": 0.8750359919378059,
+                    "f1-score": 0.9306384933394579,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4462519936204147,
+                    "recall": 0.9484745762711865,
+                    "f1-score": 0.606941431670282,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8820849873104705,
+                "macro avg": {
+                    "precision": 0.7200193911856161,
+                    "recall": 0.9117552841044962,
+                    "f1-score": 0.76878996250487,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.941231714707911,
+                    "recall": 0.8820849873104705,
+                    "f1-score": 0.8995684623664616,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12156,
+                    1736
+                ],
+                [
+                    76,
+                    1399
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 36,
+        "Batch Size": 5119,
+        "Epochs": 100,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.6029255882976469,
+        "Run Results": {
+            "Train Loss": 0.05076891279927747,
+            "Valid Loss": 0.47043462294927374,
+            "Valid ROC AUC": 0.962737339378352,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9956288659793815,
+                    "recall": 0.8689893463864095,
+                    "f1-score": 0.9280086097551601,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.43861813695249846,
+                    "recall": 0.9640677966101695,
+                    "f1-score": 0.6029255882976469,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8781154421812976,
+                "macro avg": {
+                    "precision": 0.71712350146594,
+                    "recall": 0.9165285714982895,
+                    "f1-score": 0.7654670990264034,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9421642453433009,
+                    "recall": 0.8781154421812976,
+                    "f1-score": 0.8968055475667153,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12072,
+                    1820
+                ],
+                [
+                    53,
+                    1422
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 37,
+        "Batch Size": 5119,
+        "Epochs": 100,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.5932974762101779,
+        "Run Results": {
+            "Train Loss": 0.029477459736394748,
+            "Valid Loss": 0.7175112876085048,
+            "Valid ROC AUC": 0.9755481023098285,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9965856095936043,
+                    "recall": 0.8614310394471638,
+                    "f1-score": 0.9240926640926641,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4269127716582316,
+                    "recall": 0.9722033898305085,
+                    "f1-score": 0.5932974762101779,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8720635127220667,
+                "macro avg": {
+                    "precision": 0.7117491906259179,
+                    "recall": 0.9168172146388361,
+                    "f1-score": 0.758695070151421,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9419056176657932,
+                    "recall": 0.8720635127220667,
+                    "f1-score": 0.8923413201656343,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    11967,
+                    1925
+                ],
+                [
+                    41,
+                    1434
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 38,
+        "Batch Size": 5119,
+        "Epochs": 100,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.6127067014795474,
+        "Run Results": {
+            "Train Loss": 0.039960880584267756,
+            "Valid Loss": 0.3300895587585829,
+            "Valid ROC AUC": 0.9636962866080708,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9945288257390168,
+                    "recall": 0.8766916210768788,
+                    "f1-score": 0.9318999158313567,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4511374559436078,
+                    "recall": 0.9545762711864407,
+                    "f1-score": 0.6127067014795474,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8841673716405284,
+                "macro avg": {
+                    "precision": 0.7228331408413123,
+                    "recall": 0.9156339461316598,
+                    "f1-score": 0.772303308655452,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9423714579737908,
+                    "recall": 0.8841673716405284,
+                    "f1-score": 0.9012621862049548,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12179,
+                    1713
+                ],
+                [
+                    67,
+                    1408
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 39,
+        "Batch Size": 5119,
+        "Epochs": 100,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.6089757354520078,
+        "Run Results": {
+            "Train Loss": 0.02424257849476136,
+            "Valid Loss": 0.44567095931771405,
+            "Valid ROC AUC": 0.9619840952236869,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9953221173574066,
+                    "recall": 0.8730204434206738,
+                    "f1-score": 0.9301683475859953,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.44563167818981775,
+                    "recall": 0.9613559322033899,
+                    "f1-score": 0.6089757354520078,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8814993167176417,
+                "macro avg": {
+                    "precision": 0.7204768977736122,
+                    "recall": 0.9171881878120318,
+                    "f1-score": 0.7695720415190015,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9425601340313057,
+                    "recall": 0.8814993167176417,
+                    "f1-score": 0.8993387059579852,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12128,
+                    1764
+                ],
+                [
+                    57,
+                    1418
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 40,
+        "Batch Size": 5119,
+        "Epochs": 150,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.5999147848317,
+        "Run Results": {
+            "Train Loss": 0.03900805670106187,
+            "Valid Loss": 0.3746448825391957,
+            "Valid ROC AUC": 0.9568348567886895,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9944846888376687,
+                    "recall": 0.8696372012669162,
+                    "f1-score": 0.9278801843317972,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.43740292016154086,
+                    "recall": 0.9545762711864407,
+                    "f1-score": 0.5999147848317,
+                    "support": 1475.0
+                },
+                "accuracy": 0.877790069629726,
+                "macro avg": {
+                    "precision": 0.7159438044996048,
+                    "recall": 0.9121067362266785,
+                    "f1-score": 0.7638974845817486,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9410132494677664,
+                    "recall": 0.877790069629726,
+                    "f1-score": 0.8964004573673511,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12081,
+                    1811
+                ],
+                [
+                    67,
+                    1408
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 41,
+        "Batch Size": 5119,
+        "Epochs": 150,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.6106609808102346,
+        "Run Results": {
+            "Train Loss": 0.020204843900547418,
+            "Valid Loss": 0.5591314579032615,
+            "Valid ROC AUC": 0.9663160604566952,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9964614878209348,
+                    "recall": 0.8716527497840484,
+                    "f1-score": 0.9298878820457687,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4454121306376361,
+                    "recall": 0.9708474576271187,
+                    "f1-score": 0.6106609808102346,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8811739441660702,
+                "macro avg": {
+                    "precision": 0.7209368092292854,
+                    "recall": 0.9212501037055836,
+                    "f1-score": 0.7702744314280017,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9435690688813002,
+                    "recall": 0.8811739441660702,
+                    "f1-score": 0.8992469189871096,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12109,
+                    1783
+                ],
+                [
+                    43,
+                    1432
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 42,
+        "Batch Size": 5119,
+        "Epochs": 150,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.6088831392841743,
+        "Run Results": {
+            "Train Loss": 0.03346060991026588,
+            "Valid Loss": 0.3415619533346836,
+            "Valid ROC AUC": 0.9619199441697941,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9948377581120944,
+                    "recall": 0.873956233803628,
+                    "f1-score": 0.9304874310239117,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4464116345241859,
+                    "recall": 0.9572881355932203,
+                    "f1-score": 0.6088831392841743,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8819548382898419,
+                "macro avg": {
+                    "precision": 0.7206246963181402,
+                    "recall": 0.9156221846984242,
+                    "f1-score": 0.769685285154043,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9421971299939083,
+                    "recall": 0.8819548382898419,
+                    "f1-score": 0.8996182743689946,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12141,
+                    1751
+                ],
+                [
+                    63,
+                    1412
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 43,
+        "Batch Size": 5119,
+        "Epochs": 150,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.6069351712255008,
+        "Run Results": {
+            "Train Loss": 0.017144336347558416,
+            "Valid Loss": 0.5013245725718791,
+            "Valid ROC AUC": 0.9570289692397039,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9945897204688909,
+                    "recall": 0.8733803627987331,
+                    "f1-score": 0.9300525085278448,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.444760101010101,
+                    "recall": 0.9552542372881356,
+                    "f1-score": 0.6069351712255008,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8812390186763844,
+                "macro avg": {
+                    "precision": 0.719674910739496,
+                    "recall": 0.9143173000434344,
+                    "f1-score": 0.7684938398766727,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9418143779360794,
+                    "recall": 0.8812390186763844,
+                    "f1-score": 0.8990381223417996,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12133,
+                    1759
+                ],
+                [
+                    66,
+                    1409
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 44,
+        "Batch Size": 5119,
+        "Epochs": 200,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.6083617747440273,
+        "Run Results": {
+            "Train Loss": 0.048672835401451044,
+            "Valid Loss": 0.3545579980258118,
+            "Valid ROC AUC": 0.966368572083921,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.995968405463222,
+                    "recall": 0.871364814281601,
+                    "f1-score": 0.9295093296475466,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.44382197323373795,
+                    "recall": 0.9667796610169491,
+                    "f1-score": 0.6083617747440273,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8805231990629271,
+                "macro avg": {
+                    "precision": 0.71989518934848,
+                    "recall": 0.919072237649275,
+                    "f1-score": 0.768935552195787,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9429706838820096,
+                    "recall": 0.8805231990629271,
+                    "f1-score": 0.8986840128334195,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12105,
+                    1787
+                ],
+                [
+                    49,
+                    1426
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 45,
+        "Batch Size": 5119,
+        "Epochs": 200,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.6065783853054251,
+        "Run Results": {
+            "Train Loss": 0.017719800945341983,
+            "Valid Loss": 0.5147956445259974,
+            "Valid ROC AUC": 0.955579311590136,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9954769736842105,
+                    "recall": 0.871364814281601,
+                    "f1-score": 0.929295255642561,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4427814156532585,
+                    "recall": 0.9627118644067797,
+                    "f1-score": 0.6065783853054251,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8801327520010412,
+                "macro avg": {
+                    "precision": 0.7191291946687345,
+                    "recall": 0.9170383393441903,
+                    "f1-score": 0.767936820473993,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9424265443163667,
+                    "recall": 0.8801327520010412,
+                    "f1-score": 0.8983193082392112,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12105,
+                    1787
+                ],
+                [
+                    55,
+                    1420
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 46,
+        "Batch Size": 5119,
+        "Epochs": 200,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.6087704213241617,
+        "Run Results": {
+            "Train Loss": 0.03100134092646569,
+            "Valid Loss": 0.3436306011053668,
+            "Valid ROC AUC": 0.9605127204048665,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9951599671862182,
+                    "recall": 0.8732363950475094,
+                    "f1-score": 0.9302200751476114,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4457034938621341,
+                    "recall": 0.96,
+                    "f1-score": 0.6087704213241617,
+                    "support": 1475.0
+                },
+                "accuracy": 0.881564391227956,
+                "macro avg": {
+                    "precision": 0.7204317305241762,
+                    "recall": 0.9166181975237546,
+                    "f1-score": 0.7694952482358866,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9424204410488445,
+                    "recall": 0.881564391227956,
+                    "f1-score": 0.899365761398045,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12131,
+                    1761
+                ],
+                [
+                    59,
+                    1416
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 47,
+        "Batch Size": 5119,
+        "Epochs": 200,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.6079827400215749,
+        "Run Results": {
+            "Train Loss": 0.01407673075656345,
+            "Valid Loss": 0.5234719945651523,
+            "Valid ROC AUC": 0.9527746489871014,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9945932661587613,
+                    "recall": 0.873956233803628,
+                    "f1-score": 0.9303804743476761,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4458860759493671,
+                    "recall": 0.9552542372881356,
+                    "f1-score": 0.6079827400215749,
+                    "support": 1475.0
+                },
+                "accuracy": 0.881759614758899,
+                "macro avg": {
+                    "precision": 0.7202396710540642,
+                    "recall": 0.9146052355458818,
+                    "f1-score": 0.7691816071846256,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9419256598882559,
+                    "recall": 0.881759614758899,
+                    "f1-score": 0.899435159183298,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12141,
+                    1751
+                ],
+                [
+                    66,
+                    1409
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 48,
+        "Batch Size": 10237,
+        "Epochs": 50,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.5867378361732704,
+        "Run Results": {
+            "Train Loss": 0.09474956581502167,
+            "Valid Loss": 0.4162253051464843,
+            "Valid ROC AUC": 0.9706631789055523,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9961573803358116,
+                    "recall": 0.8584077166714655,
+                    "f1-score": 0.9221668019951281,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4207891637220259,
+                    "recall": 0.968813559322034,
+                    "f1-score": 0.5867378361732704,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8690050107372942,
+                "macro avg": {
+                    "precision": 0.7084732720289187,
+                    "recall": 0.9136106379967497,
+                    "f1-score": 0.7544523190841992,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9409307180396358,
+                    "recall": 0.8690050107372942,
+                    "f1-score": 0.8899706853433912,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    11925,
+                    1967
+                ],
+                [
+                    46,
+                    1429
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 49,
+        "Batch Size": 10237,
+        "Epochs": 50,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.6030469741853576,
+        "Run Results": {
+            "Train Loss": 0.03191388308776689,
+            "Valid Loss": 0.4485033369922697,
+            "Valid ROC AUC": 0.9637565090504473,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9958732254869594,
+                    "recall": 0.8685574431327383,
+                    "f1-score": 0.9278683482005536,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.43832666871731774,
+                    "recall": 0.9661016949152542,
+                    "f1-score": 0.6030469741853576,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8779202186503546,
+                "macro avg": {
+                    "precision": 0.7170999471021386,
+                    "recall": 0.9173295690239962,
+                    "f1-score": 0.7654576611929556,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9423571734771189,
+                    "recall": 0.8779202186503546,
+                    "f1-score": 0.8966904002164048,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12066,
+                    1826
+                ],
+                [
+                    50,
+                    1425
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 50,
+        "Batch Size": 10237,
+        "Epochs": 50,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.6044269121192198,
+        "Run Results": {
+            "Train Loss": 0.09516297488226141,
+            "Valid Loss": 0.34179938915471386,
+            "Valid ROC AUC": 0.9558780080719548,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9921817737600782,
+                    "recall": 0.8769795565793262,
+                    "f1-score": 0.9310305299759275,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.44656735751295334,
+                    "recall": 0.9349152542372882,
+                    "f1-score": 0.6044269121192198,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8825405088826707,
+                "macro avg": {
+                    "precision": 0.7193745656365158,
+                    "recall": 0.9059474054083072,
+                    "f1-score": 0.7677287210475736,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9398110270974563,
+                    "recall": 0.8825405088826707,
+                    "f1-score": 0.8996815134900393,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12183,
+                    1709
+                ],
+                [
+                    96,
+                    1379
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 51,
+        "Batch Size": 10237,
+        "Epochs": 50,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.5827702702702703,
+        "Run Results": {
+            "Train Loss": 0.08414083913058598,
+            "Valid Loss": 0.3846975564869393,
+            "Valid ROC AUC": 0.9559223452590688,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.99215265157773,
+                    "recall": 0.8645983299740858,
+                    "f1-score": 0.9239941533964151,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.42318307267709293,
+                    "recall": 0.9355932203389831,
+                    "f1-score": 0.5827702702702703,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8714127676189237,
+                "macro avg": {
+                    "precision": 0.7076678621274115,
+                    "recall": 0.9000957751565344,
+                    "f1-score": 0.7533822118333426,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9375401618999503,
+                    "recall": 0.8714127676189237,
+                    "f1-score": 0.8912418121709929,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12011,
+                    1881
+                ],
+                [
+                    95,
+                    1380
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 52,
+        "Batch Size": 10237,
+        "Epochs": 100,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.6139554979477209,
+        "Run Results": {
+            "Train Loss": 0.047674137778090854,
+            "Valid Loss": 0.3907582591434881,
+            "Valid ROC AUC": 0.9666236878193523,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9955784819454679,
+                    "recall": 0.8752519435646415,
+                    "f1-score": 0.9315456809040413,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4505389980976538,
+                    "recall": 0.9633898305084746,
+                    "f1-score": 0.6139554979477209,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8837118500683282,
+                "macro avg": {
+                    "precision": 0.7230587400215609,
+                    "recall": 0.9193208870365581,
+                    "f1-score": 0.772750589425881,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9432629201132608,
+                    "recall": 0.8837118500683282,
+                    "f1-score": 0.9010618180901823,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12159,
+                    1733
+                ],
+                [
+                    54,
+                    1421
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 53,
+        "Batch Size": 10237,
+        "Epochs": 100,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.5135054912436925,
+        "Run Results": {
+            "Train Loss": 0.04367599550507751,
+            "Valid Loss": 0.41801433170531505,
+            "Valid ROC AUC": 0.9042099586641745,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9547242633414978,
+                    "recall": 0.925928591995393,
+                    "f1-score": 0.9401059747853097,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4567053854276663,
+                    "recall": 0.5864406779661017,
+                    "f1-score": 0.5135054912436925,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8933428775948461,
+                "macro avg": {
+                    "precision": 0.7057148243845821,
+                    "recall": 0.7561846349807473,
+                    "f1-score": 0.726805733014501,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.906921969795399,
+                    "recall": 0.8933428775948461,
+                    "f1-score": 0.8991587688749898,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12863,
+                    1029
+                ],
+                [
+                    610,
+                    865
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 54,
+        "Batch Size": 10237,
+        "Epochs": 100,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.6142732049036778,
+        "Run Results": {
+            "Train Loss": 0.05533024006501393,
+            "Valid Loss": 0.32456198559370103,
+            "Valid ROC AUC": 0.963582771696428,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9941339416653088,
+                    "recall": 0.8783472502159516,
+                    "f1-score": 0.9326607047313308,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4536049143226641,
+                    "recall": 0.9511864406779661,
+                    "f1-score": 0.6142732049036778,
+                    "support": 1475.0
+                },
+                "accuracy": 0.885338712826186,
+                "macro avg": {
+                    "precision": 0.7238694279939865,
+                    "recall": 0.9147668454469589,
+                    "f1-score": 0.7734669548175043,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9422513155619444,
+                    "recall": 0.885338712826186,
+                    "f1-score": 0.9021003115351448,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12202,
+                    1690
+                ],
+                [
+                    72,
+                    1403
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 55,
+        "Batch Size": 10237,
+        "Epochs": 100,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.602233676975945,
+        "Run Results": {
+            "Train Loss": 0.038955732285425426,
+            "Valid Loss": 0.4102369159166253,
+            "Valid ROC AUC": 0.9629167378371651,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.994009519120302,
+                    "recall": 0.8719406852864958,
+                    "f1-score": 0.9289822839174783,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.44074190506130145,
+                    "recall": 0.9505084745762712,
+                    "f1-score": 0.602233676975945,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8794820068978981,
+                "macro avg": {
+                    "precision": 0.7173757120908018,
+                    "recall": 0.9112245799313835,
+                    "f1-score": 0.7656079804467116,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9409041810102593,
+                    "recall": 0.8794820068978981,
+                    "f1-score": 0.8976193506683885,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12113,
+                    1779
+                ],
+                [
+                    73,
+                    1402
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 56,
+        "Batch Size": 10237,
+        "Epochs": 150,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.6169654569304766,
+        "Run Results": {
+            "Train Loss": 0.03581613599501824,
+            "Valid Loss": 0.2900233938713084,
+            "Valid ROC AUC": 0.9626763360939352,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9947831757417672,
+                    "recall": 0.8784912179671753,
+                    "f1-score": 0.9330275229357798,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4553081639238464,
+                    "recall": 0.9566101694915254,
+                    "f1-score": 0.6169654569304766,
+                    "support": 1475.0
+                },
+                "accuracy": 0.885989457929329,
+                "macro avg": {
+                    "precision": 0.7250456698328068,
+                    "recall": 0.9175506937293504,
+                    "f1-score": 0.7749964899331282,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9430017192160021,
+                    "recall": 0.885989457929329,
+                    "f1-score": 0.9026903362787991,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12204,
+                    1688
+                ],
+                [
+                    64,
+                    1411
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 57,
+        "Batch Size": 10237,
+        "Epochs": 150,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.6046511627906976,
+        "Run Results": {
+            "Train Loss": 0.019726396024668885,
+            "Valid Loss": 0.6176364549076346,
+            "Valid ROC AUC": 0.9522633926610609,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9941793736678144,
+                    "recall": 0.872948459545062,
+                    "f1-score": 0.9296282100421618,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4430419690754181,
+                    "recall": 0.951864406779661,
+                    "f1-score": 0.6046511627906976,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8805231990629271,
+                "macro avg": {
+                    "precision": 0.7186106713716163,
+                    "recall": 0.9124064331623615,
+                    "f1-score": 0.7671396864164297,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9412785035061834,
+                    "recall": 0.8805231990629271,
+                    "f1-score": 0.8984353197775747,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12127,
+                    1765
+                ],
+                [
+                    71,
+                    1404
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 58,
+        "Batch Size": 10237,
+        "Epochs": 150,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.6127770534550195,
+        "Run Results": {
+            "Train Loss": 0.04167155809753986,
+            "Valid Loss": 0.3282121402718936,
+            "Valid ROC AUC": 0.9636429941388045,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9946895424836601,
+                    "recall": 0.8764036855744314,
+                    "f1-score": 0.9318077452931272,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4509114166933163,
+                    "recall": 0.9559322033898305,
+                    "f1-score": 0.6127770534550195,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8840372226198998,
+                "macro avg": {
+                    "precision": 0.7228004795884883,
+                    "recall": 0.9161679444821309,
+                    "f1-score": 0.7722923993740733,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9424950519818864,
+                    "recall": 0.8840372226198998,
+                    "f1-score": 0.9011856153743917,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12175,
+                    1717
+                ],
+                [
+                    65,
+                    1410
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 59,
+        "Batch Size": 10237,
+        "Epochs": 150,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.6087518861823669,
+        "Run Results": {
+            "Train Loss": 0.02465199683013906,
+            "Valid Loss": 0.4338517455010685,
+            "Valid ROC AUC": 0.9597947849512218,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9948373350815374,
+                    "recall": 0.8738842499280162,
+                    "f1-score": 0.930446445679249,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.44627054361567636,
+                    "recall": 0.9572881355932203,
+                    "f1-score": 0.6087518861823669,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8818897637795275,
+                "macro avg": {
+                    "precision": 0.7205539393486069,
+                    "recall": 0.9155861927606183,
+                    "f1-score": 0.7695991659308079,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9421832049707711,
+                    "recall": 0.8818897637795275,
+                    "f1-score": 0.899568624682444,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12140,
+                    1752
+                ],
+                [
+                    63,
+                    1412
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 60,
+        "Batch Size": 10237,
+        "Epochs": 200,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.6057507987220447,
+        "Run Results": {
+            "Train Loss": 0.040743735757581466,
+            "Valid Loss": 0.4043956073294963,
+            "Valid ROC AUC": 0.9631230021424353,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9956367827447107,
+                    "recall": 0.8705729916498705,
+                    "f1-score": 0.9289143208264526,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.44161490683229815,
+                    "recall": 0.9640677966101695,
+                    "f1-score": 0.6057507987220447,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8795470814082124,
+                "macro avg": {
+                    "precision": 0.7186258447885044,
+                    "recall": 0.91732039413002,
+                    "f1-score": 0.7673325597742486,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9424590468840477,
+                    "recall": 0.8795470814082124,
+                    "f1-score": 0.8978955015966744,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12094,
+                    1798
+                ],
+                [
+                    53,
+                    1422
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 61,
+        "Batch Size": 10237,
+        "Epochs": 200,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.6030861551650236,
+        "Run Results": {
+            "Train Loss": 0.017181472629782805,
+            "Valid Loss": 0.5737464555449555,
+            "Valid ROC AUC": 0.9486495580922077,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9944152431011827,
+                    "recall": 0.8715807659084365,
+                    "f1-score": 0.9289550406628817,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.44092760890003135,
+                    "recall": 0.9538983050847457,
+                    "f1-score": 0.6030861551650236,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8794820068978981,
+                "macro avg": {
+                    "precision": 0.717671426000607,
+                    "recall": 0.912739535496591,
+                    "f1-score": 0.7660205979139527,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9412887863792008,
+                    "recall": 0.8794820068978981,
+                    "f1-score": 0.8976765473909782,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12108,
+                    1784
+                ],
+                [
+                    68,
+                    1407
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 62,
+        "Batch Size": 10237,
+        "Epochs": 200,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.6104400345125108,
+        "Run Results": {
+            "Train Loss": 0.03699919296486644,
+            "Valid Loss": 0.3357847982369935,
+            "Valid ROC AUC": 0.9629457754005476,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9950843847288219,
+                    "recall": 0.8743161531816873,
+                    "f1-score": 0.9307992949651315,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.44764315090161344,
+                    "recall": 0.9593220338983051,
+                    "f1-score": 0.6104400345125108,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8824754343723563,
+                "macro avg": {
+                    "precision": 0.7213637678152176,
+                    "recall": 0.9168190935399962,
+                    "f1-score": 0.7706196647388212,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9425382911585003,
+                    "recall": 0.8824754343723563,
+                    "f1-score": 0.9000496425171836,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12146,
+                    1746
+                ],
+                [
+                    60,
+                    1415
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 63,
+        "Batch Size": 10237,
+        "Epochs": 200,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.6094495015171218,
+        "Run Results": {
+            "Train Loss": 0.018482975894034814,
+            "Valid Loss": 0.45425883230029673,
+            "Valid ROC AUC": 0.9569079631247347,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9943572129538764,
+                    "recall": 0.8752519435646415,
+                    "f1-score": 0.9310107197549771,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.44791334820006373,
+                    "recall": 0.9532203389830508,
+                    "f1-score": 0.6094495015171218,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8827357324136136,
+                "macro avg": {
+                    "precision": 0.7211352805769701,
+                    "recall": 0.9142361412738462,
+                    "f1-score": 0.7702301106360494,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9419068517570341,
+                    "recall": 0.8827357324136136,
+                    "f1-score": 0.9001456975059475,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12159,
+                    1733
+                ],
+                [
+                    69,
+                    1406
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 64,
+        "Batch Size": 25591,
+        "Epochs": 50,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.6113256113256114,
+        "Run Results": {
+            "Train Loss": 0.04118697177164927,
+            "Valid Loss": 0.3245146998151019,
+            "Valid ROC AUC": 0.9630018984222108,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9958949096880131,
+                    "recall": 0.8731644111718975,
+                    "f1-score": 0.9305001534212949,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4471289614057107,
+                    "recall": 0.9661016949152542,
+                    "f1-score": 0.6113256113256114,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8820849873104705,
+                "macro avg": {
+                    "precision": 0.7215119355468619,
+                    "recall": 0.9196330530435759,
+                    "f1-score": 0.7709128823734531,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.943221663529596,
+                    "recall": 0.8820849873104705,
+                    "f1-score": 0.8998642160495807,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12130,
+                    1762
+                ],
+                [
+                    50,
+                    1425
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 65,
+        "Batch Size": 25591,
+        "Epochs": 50,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.5861640430820215,
+        "Run Results": {
+            "Train Loss": 0.028473581437052864,
+            "Valid Loss": 0.5408056544670521,
+            "Valid ROC AUC": 0.9532781700966779,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9950058265357083,
+                    "recall": 0.8604952490642096,
+                    "f1-score": 0.922875009650274,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.42201014017297944,
+                    "recall": 0.9593220338983051,
+                    "f1-score": 0.5861640430820215,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8699811283920088,
+                "macro avg": {
+                    "precision": 0.708507983354344,
+                    "recall": 0.9099086414812574,
+                    "f1-score": 0.7545195263661477,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9400068913248653,
+                    "recall": 0.8699811283920088,
+                    "f1-score": 0.8905558402816157,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    11954,
+                    1938
+                ],
+                [
+                    60,
+                    1415
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 66,
+        "Batch Size": 25591,
+        "Epochs": 50,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.5364978061428002,
+        "Run Results": {
+            "Train Loss": 0.14639782376430466,
+            "Valid Loss": 0.36952776260096554,
+            "Valid ROC AUC": 0.9412717964735221,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9890091308758877,
+                    "recall": 0.8420673769075727,
+                    "f1-score": 0.9096423017107309,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.3800508618253744,
+                    "recall": 0.911864406779661,
+                    "f1-score": 0.5364978061428002,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8487668380295438,
+                "macro avg": {
+                    "precision": 0.684529996350631,
+                    "recall": 0.8769658918436168,
+                    "f1-score": 0.7230700539267656,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9305583306644277,
+                    "recall": 0.8487668380295438,
+                    "f1-score": 0.8738260636055251,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    11698,
+                    2194
+                ],
+                [
+                    130,
+                    1345
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 67,
+        "Batch Size": 25591,
+        "Epochs": 50,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.5172546012269938,
+        "Run Results": {
+            "Train Loss": 0.13879367573051593,
+            "Valid Loss": 0.39476320536358334,
+            "Valid ROC AUC": 0.9405671109332525,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9891622226045071,
+                    "recall": 0.8278145695364238,
+                    "f1-score": 0.901324555215926,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.36059877038225074,
+                    "recall": 0.9145762711864407,
+                    "f1-score": 0.5172546012269938,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8361423830285677,
+                "macro avg": {
+                    "precision": 0.674880496493379,
+                    "recall": 0.8711954203614323,
+                    "f1-score": 0.7092895782214599,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9288296207936249,
+                    "recall": 0.8361423830285677,
+                    "f1-score": 0.8644596380470788,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    11500,
+                    2392
+                ],
+                [
+                    126,
+                    1349
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 68,
+        "Batch Size": 25591,
+        "Epochs": 100,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.6013956438993445,
+        "Run Results": {
+            "Train Loss": 0.04150950716098637,
+            "Valid Loss": 0.3853550750507439,
+            "Valid ROC AUC": 0.9593873562152586,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9956245356228846,
+                    "recall": 0.868125539879067,
+                    "f1-score": 0.9275139396269948,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.43700061462815,
+                    "recall": 0.9640677966101695,
+                    "f1-score": 0.6013956438993445,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8773345480575259,
+                "macro avg": {
+                    "precision": 0.7163125751255173,
+                    "recall": 0.9160966682446183,
+                    "f1-score": 0.7644547917631697,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9420050729127112,
+                    "recall": 0.8773345480575259,
+                    "f1-score": 0.8962115067384488,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12060,
+                    1832
+                ],
+                [
+                    53,
+                    1422
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 69,
+        "Batch Size": 25591,
+        "Epochs": 100,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.5824786324786325,
+        "Run Results": {
+            "Train Loss": 0.014606329934392263,
+            "Valid Loss": 0.5859841991833755,
+            "Valid ROC AUC": 0.9425177031531378,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9907909883242888,
+                    "recall": 0.8674057011229485,
+                    "f1-score": 0.9250019190911184,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.42527301092043684,
+                    "recall": 0.9240677966101695,
+                    "f1-score": 0.5824786324786325,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8728444068458385,
+                "macro avg": {
+                    "precision": 0.7080319996223629,
+                    "recall": 0.895736748866559,
+                    "f1-score": 0.7537402757848755,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9365098002803842,
+                    "recall": 0.8728444068458385,
+                    "f1-score": 0.8921248547484739,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12050,
+                    1842
+                ],
+                [
+                    112,
+                    1363
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 70,
+        "Batch Size": 25591,
+        "Epochs": 100,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.6065609385183576,
+        "Run Results": {
+            "Train Loss": 0.08182681786092721,
+            "Valid Loss": 0.3418159529711248,
+            "Valid ROC AUC": 0.9619949782096266,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9935452242830296,
+                    "recall": 0.8753239274402533,
+                    "f1-score": 0.9306953426964142,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4462915601023018,
+                    "recall": 0.9464406779661017,
+                    "f1-score": 0.6065609385183576,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8821500618207848,
+                "macro avg": {
+                    "precision": 0.7199183921926657,
+                    "recall": 0.9108823027031775,
+                    "f1-score": 0.7686281406073858,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9410171345669776,
+                    "recall": 0.8821500618207848,
+                    "f1-score": 0.8995833334452503,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12160,
+                    1732
+                ],
+                [
+                    79,
+                    1396
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 71,
+        "Batch Size": 25591,
+        "Epochs": 100,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.5781379883624272,
+        "Run Results": {
+            "Train Loss": 0.06923480741183273,
+            "Valid Loss": 0.3970983817086391,
+            "Valid ROC AUC": 0.9604463732327347,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9930174563591022,
+                    "recall": 0.8599193780593147,
+                    "f1-score": 0.9216881413471183,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.416841474378184,
+                    "recall": 0.9430508474576271,
+                    "f1-score": 0.5781379883624272,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8678987440619509,
+                "macro avg": {
+                    "precision": 0.7049294653686431,
+                    "recall": 0.9014851127584709,
+                    "f1-score": 0.7499130648547727,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9377132607827467,
+                    "recall": 0.8678987440619509,
+                    "f1-score": 0.8887125133356378,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    11946,
+                    1946
+                ],
+                [
+                    84,
+                    1391
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 72,
+        "Batch Size": 25591,
+        "Epochs": 150,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.6138484914260908,
+        "Run Results": {
+            "Train Loss": 0.041379920966841136,
+            "Valid Loss": 0.39317072487811444,
+            "Valid ROC AUC": 0.9644691250176909,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.995014303228443,
+                    "recall": 0.8763317016988195,
+                    "f1-score": 0.9319095188885061,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.45146871008939976,
+                    "recall": 0.9586440677966102,
+                    "f1-score": 0.6138484914260908,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8842324461508427,
+                "macro avg": {
+                    "precision": 0.7232415066589214,
+                    "recall": 0.9174878847477148,
+                    "f1-score": 0.7728790051572985,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9428421323505821,
+                    "recall": 0.8842324461508427,
+                    "f1-score": 0.9013804621105362,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12174,
+                    1718
+                ],
+                [
+                    61,
+                    1414
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 73,
+        "Batch Size": 25591,
+        "Epochs": 150,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.5859634551495017,
+        "Run Results": {
+            "Train Loss": 0.022901589160495228,
+            "Valid Loss": 0.7038700646314043,
+            "Valid ROC AUC": 0.9482562333156016,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9946781972393148,
+                    "recall": 0.8610711200691045,
+                    "f1-score": 0.923065051315688,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4223286441185274,
+                    "recall": 0.9566101694915254,
+                    "f1-score": 0.5859634551495017,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8702414264332661,
+                "macro avg": {
+                    "precision": 0.7085034206789211,
+                    "recall": 0.908840644780315,
+                    "f1-score": 0.7545142532325948,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9397412810648396,
+                    "recall": 0.8702414264332661,
+                    "f1-score": 0.8907083874030749,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    11962,
+                    1930
+                ],
+                [
+                    64,
+                    1411
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 74,
+        "Batch Size": 25591,
+        "Epochs": 150,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.614350747886408,
+        "Run Results": {
+            "Train Loss": 0.05730086465989844,
+            "Valid Loss": 0.33155591885009633,
+            "Valid ROC AUC": 0.9675740457866252,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9952571755662769,
+                    "recall": 0.8761157500719838,
+                    "f1-score": 0.9318938784885724,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4515615041427661,
+                    "recall": 0.9606779661016949,
+                    "f1-score": 0.614350747886408,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8842324461508427,
+                "macro avg": {
+                    "precision": 0.7234093398545215,
+                    "recall": 0.9183968580868394,
+                    "f1-score": 0.7731223131874903,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9430705994388819,
+                    "recall": 0.8842324461508427,
+                    "f1-score": 0.9014145319903495,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12171,
+                    1721
+                ],
+                [
+                    58,
+                    1417
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 75,
+        "Batch Size": 25591,
+        "Epochs": 150,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.5962232123912582,
+        "Run Results": {
+            "Train Loss": 0.04266715752462582,
+            "Valid Loss": 0.41300916011881766,
+            "Valid ROC AUC": 0.9640173102919863,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9942287080550746,
+                    "recall": 0.8680535560034552,
+                    "f1-score": 0.9268667614618962,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.43390982087708463,
+                    "recall": 0.9525423728813559,
+                    "f1-score": 0.5962232123912582,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8761632068718683,
+                "macro avg": {
+                    "precision": 0.7140692644660795,
+                    "recall": 0.9102979644424056,
+                    "f1-score": 0.7615449869265771,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9404465541806986,
+                    "recall": 0.8761632068718683,
+                    "f1-score": 0.8951299725714692,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12059,
+                    1833
+                ],
+                [
+                    70,
+                    1405
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 76,
+        "Batch Size": 25591,
+        "Epochs": 200,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.6062553556126821,
+        "Run Results": {
+            "Train Loss": 0.03652381359925499,
+            "Valid Loss": 0.35109993499813585,
+            "Valid ROC AUC": 0.9612663061779247,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9950714637752588,
+                    "recall": 0.8720126691621077,
+                    "f1-score": 0.92948668763907,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4431569057312872,
+                    "recall": 0.9593220338983051,
+                    "f1-score": 0.6062553556126821,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8803930500422984,
+                "macro avg": {
+                    "precision": 0.7191141847532729,
+                    "recall": 0.9156673515302064,
+                    "f1-score": 0.7678710216258761,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9420959986151847,
+                    "recall": 0.8803930500422984,
+                    "f1-score": 0.8984613596805275,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12114,
+                    1778
+                ],
+                [
+                    60,
+                    1415
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 77,
+        "Batch Size": 25591,
+        "Epochs": 200,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.5936647786868051,
+        "Run Results": {
+            "Train Loss": 0.015516360401102531,
+            "Valid Loss": 0.6281095280554666,
+            "Valid ROC AUC": 0.9503117511846837,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9950310559006211,
+                    "recall": 0.8648862654765332,
+                    "f1-score": 0.9254053221396388,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4298298906439854,
+                    "recall": 0.9593220338983051,
+                    "f1-score": 0.5936647786868051,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8739506735211817,
+                "macro avg": {
+                    "precision": 0.7124304732723032,
+                    "recall": 0.9121041496874192,
+                    "f1-score": 0.7595350504132219,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9407802770398456,
+                    "recall": 0.8739506735211817,
+                    "f1-score": 0.8935632383501594,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12015,
+                    1877
+                ],
+                [
+                    60,
+                    1415
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 78,
+        "Batch Size": 25591,
+        "Epochs": 200,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.6138912855910268,
+        "Run Results": {
+            "Train Loss": 0.046304479614504304,
+            "Valid Loss": 0.32974956136141337,
+            "Valid ROC AUC": 0.968729765210559,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9957398000983123,
+                    "recall": 0.8748920241865822,
+                    "f1-score": 0.93141236876389,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.45017399557102183,
+                    "recall": 0.9647457627118644,
+                    "f1-score": 0.6138912855910268,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8835166265373853,
+                "macro avg": {
+                    "precision": 0.7229568978346671,
+                    "recall": 0.9198188934492233,
+                    "f1-score": 0.7726518271774584,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9433737194268896,
+                    "recall": 0.8835166265373853,
+                    "f1-score": 0.9009351384860235,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12154,
+                    1738
+                ],
+                [
+                    52,
+                    1423
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 79,
+        "Batch Size": 25591,
+        "Epochs": 200,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.6010230179028133,
+        "Run Results": {
+            "Train Loss": 0.029632914559645264,
+            "Valid Loss": 0.4312577805678637,
+            "Valid ROC AUC": 0.9631266135368728,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9946502057613169,
+                    "recall": 0.8699251367693637,
+                    "f1-score": 0.9281161201136625,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.43829654958035436,
+                    "recall": 0.9559322033898305,
+                    "f1-score": 0.6010230179028133,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8781805166916119,
+                "macro avg": {
+                    "precision": 0.7164733776708356,
+                    "recall": 0.9129286700795971,
+                    "f1-score": 0.7645695690082379,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9412486541984277,
+                    "recall": 0.8781805166916119,
+                    "f1-score": 0.8967201205196622,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12085,
+                    1807
+                ],
+                [
+                    65,
+                    1410
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 80,
+        "Batch Size": 51182,
+        "Epochs": 50,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.6084712964953773,
+        "Run Results": {
+            "Train Loss": 0.07588821171556658,
+            "Valid Loss": 0.34458929732933535,
+            "Valid ROC AUC": 0.9620214780363775,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9950783364777295,
+                    "recall": 0.8732363950475094,
+                    "f1-score": 0.9301844113023808,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.44552896725440805,
+                    "recall": 0.9593220338983051,
+                    "f1-score": 0.6084712964953773,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8814993167176417,
+                "macro avg": {
+                    "precision": 0.7203036518660688,
+                    "recall": 0.9162792144729073,
+                    "f1-score": 0.769327853898879,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9423298937365049,
+                    "recall": 0.8814993167176417,
+                    "f1-score": 0.8993048092759391,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12131,
+                    1761
+                ],
+                [
+                    60,
+                    1415
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 81,
+        "Batch Size": 51182,
+        "Epochs": 50,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.5663858804653028,
+        "Run Results": {
+            "Train Loss": 0.06697754545393417,
+            "Valid Loss": 0.49332809821086365,
+            "Valid ROC AUC": 0.9630920124739515,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9946862348178138,
+                    "recall": 0.8489058450906997,
+                    "f1-score": 0.916032313189374,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4021646254628311,
+                    "recall": 0.9572881355932203,
+                    "f1-score": 0.5663858804653028,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8593089087004621,
+                "macro avg": {
+                    "precision": 0.6984254301403224,
+                    "recall": 0.90309699034196,
+                    "f1-score": 0.7412090968273384,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9378131057881659,
+                    "recall": 0.8593089087004621,
+                    "f1-score": 0.8824715343601942,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    11793,
+                    2099
+                ],
+                [
+                    63,
+                    1412
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 82,
+        "Batch Size": 51182,
+        "Epochs": 50,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.4507799892415277,
+        "Run Results": {
+            "Train Loss": 0.2052005186271129,
+            "Valid Loss": 0.43325120530837824,
+            "Valid ROC AUC": 0.8985632750467284,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9806480248557479,
+                    "recall": 0.7952058738842499,
+                    "f1-score": 0.8782446237627698,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.30643588493417845,
+                    "recall": 0.8522033898305085,
+                    "f1-score": 0.4507799892415277,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8006767749072689,
+                "macro avg": {
+                    "precision": 0.6435419548949631,
+                    "recall": 0.8237046318573792,
+                    "f1-score": 0.6645123065021488,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9159338381970432,
+                    "recall": 0.8006767749072689,
+                    "f1-score": 0.8372144724047407,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    11047,
+                    2845
+                ],
+                [
+                    218,
+                    1257
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 83,
+        "Batch Size": 51182,
+        "Epochs": 50,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.4292050494711703,
+        "Run Results": {
+            "Train Loss": 0.1997576070598829,
+            "Valid Loss": 0.45177001996217836,
+            "Valid ROC AUC": 0.8933919534227723,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9802367941712204,
+                    "recall": 0.7747624532104809,
+                    "f1-score": 0.8654712126085558,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.28675632550718033,
+                    "recall": 0.8528813559322034,
+                    "f1-score": 0.4292050494711703,
+                    "support": 1475.0
+                },
+                "accuracy": 0.7822606884883191,
+                "macro avg": {
+                    "precision": 0.6334965598392004,
+                    "recall": 0.8138219045713422,
+                    "f1-score": 0.647338131039863,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9136731388527158,
+                    "recall": 0.7822606884883191,
+                    "f1-score": 0.8235962473825752,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    10763,
+                    3129
+                ],
+                [
+                    217,
+                    1258
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 84,
+        "Batch Size": 51182,
+        "Epochs": 100,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.6159860990443093,
+        "Run Results": {
+            "Train Loss": 0.03851042993881746,
+            "Valid Loss": 0.32816098112203995,
+            "Valid ROC AUC": 0.9656205986130293,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9953423762052623,
+                    "recall": 0.8768355888281025,
+                    "f1-score": 0.9323383084577115,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4531799296899968,
+                    "recall": 0.9613559322033899,
+                    "f1-score": 0.6159860990443093,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8849482657643001,
+                "macro avg": {
+                    "precision": 0.7242611529476296,
+                    "recall": 0.9190957605157462,
+                    "f1-score": 0.7741622037510104,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9433029665215233,
+                    "recall": 0.8849482657643001,
+                    "f1-score": 0.9019732724139314,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12181,
+                    1711
+                ],
+                [
+                    57,
+                    1418
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 85,
+        "Batch Size": 51182,
+        "Epochs": 100,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.6086210594038173,
+        "Run Results": {
+            "Train Loss": 0.024694294955689585,
+            "Valid Loss": 0.45606815099755943,
+            "Valid ROC AUC": 0.9606094716139516,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9954019213400115,
+                    "recall": 0.8726605240426144,
+                    "f1-score": 0.9299988492961528,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.44510664993726473,
+                    "recall": 0.9620338983050848,
+                    "f1-score": 0.6086210594038173,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8812390186763844,
+                "macro avg": {
+                    "precision": 0.7202542856386381,
+                    "recall": 0.9173472111738497,
+                    "f1-score": 0.7693099543499851,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9425818832506608,
+                    "recall": 0.8812390186763844,
+                    "f1-score": 0.8991514333990229,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12123,
+                    1769
+                ],
+                [
+                    56,
+                    1419
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 86,
+        "Batch Size": 51182,
+        "Epochs": 100,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.5573366214549939,
+        "Run Results": {
+            "Train Loss": 0.12906389135383628,
+            "Valid Loss": 0.35446851001352436,
+            "Valid ROC AUC": 0.946699234286774,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9900634602538411,
+                    "recall": 0.8535128131298589,
+                    "f1-score": 0.9167310963352404,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.3998820406959599,
+                    "recall": 0.9193220338983051,
+                    "f1-score": 0.5573366214549939,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8598295047829765,
+                "macro avg": {
+                    "precision": 0.6949727504749005,
+                    "recall": 0.886417423514082,
+                    "f1-score": 0.7370338588951171,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9334149541141994,
+                    "recall": 0.8598295047829765,
+                    "f1-score": 0.882234652628052,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    11857,
+                    2035
+                ],
+                [
+                    119,
+                    1356
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 87,
+        "Batch Size": 51182,
+        "Epochs": 100,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.5301487862176977,
+        "Run Results": {
+            "Train Loss": 0.12029019191579911,
+            "Valid Loss": 0.389238995317911,
+            "Valid ROC AUC": 0.9440202140483243,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.98968808590421,
+                    "recall": 0.8359487474805644,
+                    "f1-score": 0.9063451182392882,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.3726947426369392,
+                    "recall": 0.9179661016949152,
+                    "f1-score": 0.5301487862176977,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8438211752456563,
+                "macro avg": {
+                    "precision": 0.6811914142705746,
+                    "recall": 0.8769574245877398,
+                    "f1-score": 0.7182469522284929,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9304660398757578,
+                    "recall": 0.8438211752456563,
+                    "f1-score": 0.87023594990898,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    11613,
+                    2279
+                ],
+                [
+                    121,
+                    1354
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 88,
+        "Batch Size": 51182,
+        "Epochs": 150,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.6122186495176849,
+        "Run Results": {
+            "Train Loss": 0.03716344172687435,
+            "Valid Loss": 0.33618331960536185,
+            "Valid ROC AUC": 0.9650807195459404,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9961402644329473,
+                    "recall": 0.8731644111718975,
+                    "f1-score": 0.9306072346465151,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.44764890282131664,
+                    "recall": 0.9681355932203389,
+                    "f1-score": 0.6122186495176849,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8822802108414134,
+                "macro avg": {
+                    "precision": 0.721894583627132,
+                    "recall": 0.9206500021961181,
+                    "f1-score": 0.7714129420821,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9434933744494011,
+                    "recall": 0.8822802108414134,
+                    "f1-score": 0.9000467372778013,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12130,
+                    1762
+                ],
+                [
+                    47,
+                    1428
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 89,
+        "Batch Size": 51182,
+        "Epochs": 150,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.6109296755932941,
+        "Run Results": {
+            "Train Loss": 0.015156264250627589,
+            "Valid Loss": 0.462880171474457,
+            "Valid ROC AUC": 0.9552815179569268,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.994121969140338,
+                    "recall": 0.8765476533256551,
+                    "f1-score": 0.9316399525649363,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4499679281590763,
+                    "recall": 0.9511864406779661,
+                    "f1-score": 0.6109296755932941,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8837118500683282,
+                "macro avg": {
+                    "precision": 0.7220449486497071,
+                    "recall": 0.9138670470018107,
+                    "f1-score": 0.7712848140791152,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9418913964555354,
+                    "recall": 0.8837118500683282,
+                    "f1-score": 0.9008566078305593,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12177,
+                    1715
+                ],
+                [
+                    72,
+                    1403
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 90,
+        "Batch Size": 51182,
+        "Epochs": 150,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.6104893570331358,
+        "Run Results": {
+            "Train Loss": 0.0915149339176646,
+            "Valid Loss": 0.3318989644406589,
+            "Valid ROC AUC": 0.9594733464449724,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9931623931623932,
+                    "recall": 0.8782752663403398,
+                    "f1-score": 0.9321923826259694,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.45133030499675536,
+                    "recall": 0.9430508474576271,
+                    "f1-score": 0.6104893570331358,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8844927441921,
+                "macro avg": {
+                    "precision": 0.7222463490795743,
+                    "recall": 0.9106630568989835,
+                    "f1-score": 0.7713408698295525,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9411546928927038,
+                    "recall": 0.8844927441921,
+                    "f1-score": 0.9013137490117682,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12201,
+                    1691
+                ],
+                [
+                    84,
+                    1391
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 91,
+        "Batch Size": 51182,
+        "Epochs": 150,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.5809844341607068,
+        "Run Results": {
+            "Train Loss": 0.08076343821249353,
+            "Valid Loss": 0.38115904986443344,
+            "Valid ROC AUC": 0.9557069548624497,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9922236929185969,
+                    "recall": 0.8633746040886842,
+                    "f1-score": 0.9233256351039261,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.42116498932601404,
+                    "recall": 0.936271186440678,
+                    "f1-score": 0.5809844341607068,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8703715754538948,
+                "macro avg": {
+                    "precision": 0.7066943411223054,
+                    "recall": 0.8998228952646811,
+                    "f1-score": 0.7521550346323165,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9374106788105042,
+                    "recall": 0.8703715754538948,
+                    "f1-score": 0.8904660482365317,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    11994,
+                    1898
+                ],
+                [
+                    94,
+                    1381
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 92,
+        "Batch Size": 51182,
+        "Epochs": 200,
+        "Alpha": 0.01,
+        "Weight Decay": 0.01,
+        "F1": 0.6150862068965517,
+        "Run Results": {
+            "Train Loss": 0.03207457607593381,
+            "Valid Loss": 0.33089254947775953,
+            "Valid ROC AUC": 0.9624385696925922,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9960662186526799,
+                    "recall": 0.8748920241865822,
+                    "f1-score": 0.9315551467770369,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.45086887835703,
+                    "recall": 0.967457627118644,
+                    "f1-score": 0.6150862068965517,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8837769245786425,
+                "macro avg": {
+                    "precision": 0.723467548504855,
+                    "recall": 0.9211748256526131,
+                    "f1-score": 0.7733206768367943,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9437355049846847,
+                    "recall": 0.8837769245786425,
+                    "f1-score": 0.9011789063707302,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12154,
+                    1738
+                ],
+                [
+                    48,
+                    1427
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 93,
+        "Batch Size": 51182,
+        "Epochs": 200,
+        "Alpha": 0.01,
+        "Weight Decay": 0.001,
+        "F1": 0.6043324491600354,
+        "Run Results": {
+            "Train Loss": 0.01132032522237743,
+            "Valid Loss": 0.4595208385782421,
+            "Valid ROC AUC": 0.9500810123617056,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9912323429128105,
+                    "recall": 0.8789231212208465,
+                    "f1-score": 0.93170545593285,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.44834371925221383,
+                    "recall": 0.9267796610169492,
+                    "f1-score": 0.6043324491600354,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8835166265373853,
+                "macro avg": {
+                    "precision": 0.7197880310825122,
+                    "recall": 0.9028513911188978,
+                    "f1-score": 0.7680189525464427,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.939123231186424,
+                    "recall": 0.8835166265373853,
+                    "f1-score": 0.9002825897267004,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12210,
+                    1682
+                ],
+                [
+                    108,
+                    1367
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 94,
+        "Batch Size": 51182,
+        "Epochs": 200,
+        "Alpha": 0.001,
+        "Weight Decay": 0.01,
+        "F1": 0.6143389607542206,
+        "Run Results": {
+            "Train Loss": 0.07105646916509704,
+            "Valid Loss": 0.32197829357067115,
+            "Valid ROC AUC": 0.9654389064307222,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9939744320495074,
+                    "recall": 0.878707169594011,
+                    "f1-score": 0.9327933366446338,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4539857420609203,
+                    "recall": 0.9498305084745763,
+                    "f1-score": 0.6143389607542206,
+                    "support": 1475.0
+                },
+                "accuracy": 0.885533936357129,
+                "macro avg": {
+                    "precision": 0.7239800870552139,
+                    "recall": 0.9142688390342937,
+                    "f1-score": 0.7735661486994272,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.9421436701745047,
+                    "recall": 0.885533936357129,
+                    "f1-score": 0.90222652435607,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12207,
+                    1685
+                ],
+                [
+                    74,
+                    1401
+                ]
+            ]
+        }
+    },
+    {
+        "Index": 95,
+        "Batch Size": 51182,
+        "Epochs": 200,
+        "Alpha": 0.001,
+        "Weight Decay": 0.001,
+        "F1": 0.5951051953628167,
+        "Run Results": {
+            "Train Loss": 0.05892540231058273,
+            "Valid Loss": 0.385220302227045,
+            "Valid ROC AUC": 0.9600800851117822,
+            "Classification Report": {
+                "0": {
+                    "precision": 0.9926953381483913,
+                    "recall": 0.8706449755254823,
+                    "f1-score": 0.9276729559748428,
+                    "support": 13892.0
+                },
+                "1": {
+                    "precision": 0.4354382657869934,
+                    "recall": 0.9396610169491525,
+                    "f1-score": 0.5951051953628167,
+                    "support": 1475.0
+                },
+                "accuracy": 0.8772694735472115,
+                "macro avg": {
+                    "precision": 0.7140668019676923,
+                    "recall": 0.9051529962373174,
+                    "f1-score": 0.7613890756688297,
+                    "support": 15367.0
+                },
+                "weighted avg": {
+                    "precision": 0.939207072271313,
+                    "recall": 0.8772694735472115,
+                    "f1-score": 0.8957514718268152,
+                    "support": 15367.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    12095,
+                    1797
+                ],
+                [
+                    89,
+                    1386
+                ]
+            ]
+        }
+    }
+]
